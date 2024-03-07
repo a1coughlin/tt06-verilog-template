@@ -15,7 +15,7 @@
 // Modify the module contents to your needs.
 // ================================================
 
-module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, output logic passed, output logic failed);
+/*module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, output logic passed, output logic failed);
    // Tiny tapeout I/O signals.
    logic [7:0] ui_in, uo_out;
    logic [7:0]uio_in,  uio_out, uio_oe;
@@ -32,7 +32,7 @@ module top(input logic clk, input logic reset, input logic [31:0] cyc_cnt, outpu
    assign passed = top.cyc_cnt > 400;
    assign failed = 1'b0;
 endmodule
-
+*/
 
 // Provide a wrapper module to debounce input signals if requested.
 
